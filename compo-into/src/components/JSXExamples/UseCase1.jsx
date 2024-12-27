@@ -15,6 +15,7 @@ function UseCase1() {
                 Age: {user.age} <br />
             </p>
             <p>{JSON.stringify(user)}</p>
+            {/* Conditional Rendering */}
             {flag ? <div>Extra Div</div> : ''}
         </div>
     );
